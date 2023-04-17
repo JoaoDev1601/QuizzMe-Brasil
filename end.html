@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzMe - end</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2eddf75b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Insira seu nome abaixo para salvar sua pontuação!</h2>
+                <input type="text" name="name" id="username" placeholder="Insira seu Nome">
+                <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)" disabled>Salvar</button>
+            </form>
+            <a href="game.html" class="btn">Jogue novamente!</a>
+            <a href="index.html" class="btn">Vá para o início<i class="fa-solid fa-house"></i></a>
+        </div>
+    </div>
+
+    <script src="end.js"></script>
+
+</body>
+</html>
