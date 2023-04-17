@@ -17,7 +17,7 @@ let questions = [
         choice2: 'Português',
         choice3: 'Brasileiro',
         choice4: 'Latino',
-        answer: 3,
+        answer: 2,
     },
     {
         question: 'Quando é a comemoração da independência brasileira?',
